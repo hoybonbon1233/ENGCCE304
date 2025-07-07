@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram id="xxhR6ilDU8MkvRglCkzs" name="Page-1">
+    <mxGraphModel dx="1895" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="โจทย์ปัญหา" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="56" y="702" width="338" height="387" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="เริ่มต้น" style="rounded=1;arcSize=20;strokeWidth=2" parent="2" vertex="1">
+          <mxGeometry x="112" y="46" width="71" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="สิ้นสุด" style="rounded=1;arcSize=20;strokeWidth=2" parent="2" vertex="1">
+          <mxGeometry x="44" y="175" width="69" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="โจทย์ปัญหา" style="rounded=1;arcSize=20;strokeWidth=2" parent="2" vertex="1">
+          <mxGeometry x="163" y="175" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="จงเขียน Flowchart" style="whiteSpace=wrap;strokeWidth=2;" parent="2" vertex="1">
+          <mxGeometry x="124" y="304" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=0.99;entryX=0.49;entryY=-0.01;" parent="2" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="78" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=0.99;entryX=0.5;entryY=-0.01;" parent="2" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="217" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" parent="2" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="ทบทวนสัญลักษณ์" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="52" y="8" width="179" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="เริ่มต้น" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="113" y="135" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="สิ้นสุด" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="242" width="99" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="กระบวนการ" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="157" y="242" width="135" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="ประโยคเงื่อนไข" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="144" y="346" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="ฟังก์ชัน/โมดูล" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="51" y="472" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="ข้อควรระวัง" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="255" y="472" width="133" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="แสดงผล/รับค่า" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="576" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="เริ่มต้น" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=-0.01;" parent="1" source="11" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="58" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.83;entryX=0.5;entryY=-0.01;" parent="1" source="11" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" parent="1" source="13" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="จริง" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=0.99;entryX=0.5;entryY=0;" parent="1" source="14" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="เท็จ" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0.99;entryX=0.5;entryY=0;" parent="1" source="14" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.18;entryY=0;" parent="1" source="15" target="17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.81;entryY=0;" parent="1" source="16" target="17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="แก้ไขโจทย์ปัญหา" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="17" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
