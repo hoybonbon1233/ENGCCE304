@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="1991" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1700" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -256,6 +256,9 @@
                         <mxPoint x="90" y="700" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="151" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="19" value="A" style="shape=offPageConnector;whiteSpace=wrap;html=1;size=0.4;" vertex="1" parent="0">
                     <mxGeometry x="260" y="50" width="40" height="50" as="geometry"/>
                 </mxCell>
@@ -380,8 +383,10 @@
                 <mxCell id="53" value="ในตู้มีเงินเหลือมั้ย?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0">
                     <mxGeometry x="464.5" y="450" width="117" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0.564;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0" source="21" target="23">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="54" style="edgeStyle=none;html=1;" edge="1" parent="0" source="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="210" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="117" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0" source="57" target="116">
                     <mxGeometry relative="1" as="geometry"/>
