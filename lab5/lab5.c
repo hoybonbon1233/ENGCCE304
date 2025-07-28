@@ -19,7 +19,7 @@ int main() {
     } else if( score >= 50 && score < 55 ) {
         printf("D ! ");
     } else {
-        printf("F");
+        printf("F !");
     } // end if
     return 0;
 } // end function
