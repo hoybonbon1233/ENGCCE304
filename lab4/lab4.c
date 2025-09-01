@@ -10,7 +10,7 @@ int main() {
         printf( " Enter the salary per hrs: " ) ;
         scanf( "%d",&Hour ) ;
         printf( " Expected Output:\n " ) ;
-        printf(" Employees ID = %s\n",EmployeesID ) ;
-        printf(" Salary amount/hr : %.2f\n ",Hour * salary ) ;
+        printf( " Employees ID = %s\n",EmployeesID ) ;
+        printf( " Salary amount/hr : %.2f\n ",Hour * salary ) ;
     return 0 ;
 }//end
