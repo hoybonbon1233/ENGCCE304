@@ -1,12 +1,10 @@
 #include <stdio.h>
 int main() {
     int n ;
-
     printf("Enter Number: ") ;
     scanf("%d", &n) ;
 
     int i = n ;
-
     // วนจาก n ลงไปถึง 2
     do {
         int prime = 1 ;  // สมมติว่าเป็นจำนวนเฉพาะ
