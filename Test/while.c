@@ -1,19 +1,18 @@
 #include <stdio.h>
 int main() {
-    int n ;
+    int N ;
     printf( "Enter Number: " ) ;
-    scanf( "%d", &n ) ;
+    scanf( "%d", &N ) ;
 
-    int i = n ;
+    int i = N ;
     while (  i >= 2  ) {
         int prime = 1; // สมมติว่าเป็นจำนวนเฉพาะ
-        int j = 2;
-        while ( j <= i / 2 ) {
-            if ( i % j == 0 ) {
+        int n = 2;
+        while ( n <= i / 2 ) {
+            if ( i % n == 0 ) {
                 prime = 0 ; // ถ้ามีตัวหารลงตัว ไม่ใช่จำนวนเฉพาะ
-                break ;
             }
-            j++ ;
+            n++ ;
         }
         if (prime) {
             printf("%d ", i) ;

@@ -1,22 +1,21 @@
 #include <stdio.h>
 int main() {
-    int n ;
+    int N ;
     printf( "Enter Number: " ) ;
-    scanf( "%d",&n ) ;
+    scanf( "%d",&N ) ;
 
-    int i = n ;
+    int i = N ;
     // วนจาก n ลงไปถึง 2
     do {
         int prime = 1 ;  // สมมติว่าเป็นจำนวนเฉพาะ
-        int j = 2 ;
+        int n = 2 ;
          
         do {//ตรวจตัวหาร
-            if  ( i % j == 0 ) {
+            if  ( i % n == 0 ) {
                 prime = 0 ; // มีตัวหารลงตัว
-                break ;
             }
-            j++ ;
-        } while ( j <= i / 2 ) ;
+            n++ ;
+        } while ( n <= i / 2 ) ;
         if ( prime && i >= 2 ) {
             printf( "%d ", i ) ;
         }
