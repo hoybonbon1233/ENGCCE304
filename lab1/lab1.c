@@ -10,4 +10,3 @@ int main() {
     printf( "Hello %s \n", Name ) ; 
     printf( "Age = %d\n", Age ) ;    
 }//end main function
-a
