@@ -14,7 +14,7 @@ int main() {
                 break ;
             }
             n++ ;
-        } if (prime) {
+        } if ( prime == 1 ) {
             printf( " %d",i )  ;
         }
         i-- ;

@@ -15,10 +15,10 @@ int main() {
             }
             n++ ;
         } while ( n <= i / 2 ) ;
-        if ( prime ) {
+        if ( prime == 1 ) {
             printf( " %d",i ) ;
         }
         i-- ;  
-    } while ( i >= 2 ) ;  // end do/while
+    } while ( i >= 2 ) ;//end do/while
     return 0 ;
 } // end main function

@@ -8,10 +8,10 @@ int main() {
         int prime = 1 ; 
         for ( int n = 2 ; n <= i / 2 ; n++ ) { 
             if ( i % n == 0 ) {
-                prime = 0 ; 
-                break ;     
+                prime = 0 ;
+                break ;      
             }
-        } if (prime) { 
+        } if ( prime == 1 ) { 
             printf( " %d ",i ) ;
         }
     }//end for loop
