@@ -15,7 +15,7 @@ int main() {
             }
             n++ ;
         } if (prime) {
-            printf( "%d ",i )  ;
+            printf( "%d",i )  ;
         }
         i-- ;
     }//end while
