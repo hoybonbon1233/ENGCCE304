@@ -11,6 +11,7 @@ int main() {
         while ( n <= i / 2 ) {
             if ( i % n == 0 ) {
                 prime = 0 ; 
+                break ;
             }
             n++ ;
         } if (prime) {
