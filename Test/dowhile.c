@@ -11,13 +11,13 @@ int main() {
         int prime = 1 ;   
         int n = 2 ;
         do {
-            if ( i % n == 0 && n != i ) {  
+            if ( i % n == 0 ) {  
                 prime = 0 ;  
                 break ;      
             }
             n++ ;
         } while ( n <= i / 2 ) ;
-        if ( prime && i >= 2 ) {
+        if ( prime ) {
             printf( "%d ", i ) ;
         }
         i-- ;  
