@@ -5,21 +5,21 @@ int main() {
     scanf( "%d",&N ) ;
 
     int i = N ;
-    // วนจาก n ลงไปถึง 2
+    
     do {
-        int prime = 1 ;  // สมมติว่าเป็นจำนวนเฉพาะ
+        int prime = 1 ;  
         int n = 2 ;
          
-        do {//ตรวจตัวหาร
+        do {
             if  ( i % n == 0 ) {
-                prime = 0 ; // มีตัวหารลงตัว
+                prime = 0 ; 
             }
             n++ ;
         } while ( n <= i / 2 ) ;
         if ( prime && i >= 2 ) {
             printf( "%d ", i ) ;
         }
-        i-- ; // ลดค่า i เพื่อตรวจต่อ
-    } while ( i >= 2 ) ;
+        i-- ; 
+    } while ( i >= 2 ) ;//end do/while
     return 0 ;
-}
+}//end main function

@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main() {
     int N ;
-    printf( "Enter Number: " );
-    scanf( "%d", &N ) ;
+    printf( "Enter Number: " ) ;
+    scanf( "%d",&N ) ;
 
-    for (int i = N; i >= 2; i--) { // ตรวจสอบตัวเลขจาก N ลงไปถึง 2
+    for ( int i = N; i >= 2; i-- ) {
         int prime = 1 ; 
-        for (int n = 2; n <= i / 2; n++) { // ตรวจสอบตัวหารตั้งแต่ 2 ถึง i/2
-            if (i % n == 0) {
-                prime = 0 ; // ถ้ามีตัวหารลงตัว => ไม่ใช่จำนวนเฉพาะ
-                break ;     // เจอตัวหารแล้วหยุดเช็คต่อ
+        for ( int n = 2; n <= i / 2; n++ ) { 
+            if ( i % n == 0 ) {
+                prime = 0 ; 
+                break ;     
             }
         }   
-        if (prime) { // ถ้า prime = 1 คือจำนวนเฉพาะ
+        if (prime) { 
             printf( "%d ", i ) ;
         }
-    }
+    }//end for loop
     return 0 ;
-}
+}//end main function
