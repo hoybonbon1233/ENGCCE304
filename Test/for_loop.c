@@ -4,16 +4,15 @@ int main() {
     printf( "Enter Number: " ) ;
     scanf( "%d",&N ) ;
 
-    for ( int i = N; i >= 2; i-- ) {
+    for ( int i = N ; i >= 2 ; i-- ) {
         int prime = 1 ; 
-        for ( int n = 2; n <= i / 2; n++ ) { 
+        for ( int n = 2 ; n <= i / 2 ; n++ ) { 
             if ( i % n == 0 ) {
                 prime = 0 ; 
                 break ;     
             }
-        }   
-        if (prime) { 
-            printf( "%d ", i ) ;
+        } if (prime) { 
+            printf( "%d ",i ) ;
         }
     }//end for loop
     return 0 ;
