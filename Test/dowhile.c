@@ -6,19 +6,22 @@ int main() {
 
     int i = N ;
     do {
-        int prime = 1 ;   
-        int n = 2 ;
-        do {
-            if ( i % n == 0 ) {  
-                prime = 0 ;  
-                break ;      
-            }
-            n++ ;
-        } while ( n <= i / 2 ) ;
-        if ( prime == 1 ) {
-            printf( " %d",i ) ;
+        int prime = 1 ;  
+        if (i == 2) {
+            prime = 1 ;
+        } else {
+            int n = 2 ;
+            do {
+                if  ( i % n == 0 ) {
+                    prime = 0 ; 
+                }
+                n++ ;
+            } while ( n <= i / 2 ) ;
         }
-        i-- ;  
-    } while ( i >= 2 ) ;//end do/while
+        if ( prime ) {
+            printf( "%d ", i ) ;
+        }
+        i-- ; 
+    } while ( i >= 2 ) ;//end do while
     return 0 ;
-} // end main function
+}//end main functions
