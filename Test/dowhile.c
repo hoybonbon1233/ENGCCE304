@@ -16,7 +16,7 @@ int main() {
             n++ ;
         } while ( n <= i / 2 ) ;
         if ( prime ) {
-            printf( "%d",i ) ;
+            printf( " %d",i ) ;
         }
         i-- ;  
     } while ( i >= 2 ) ;  // end do/while

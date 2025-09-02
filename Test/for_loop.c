@@ -12,7 +12,7 @@ int main() {
                 break ;     
             }
         } if (prime) { 
-            printf( "%d ",i ) ;
+            printf( " %d ",i ) ;
         }
     }//end for loop
     return 0 ;
