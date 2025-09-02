@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    int N;
+    int N ;
 
-    printf("Enter Number: ");
-    scanf("%d", &N);
+    printf( "Enter Number: " ) ;
+    scanf( "%d", &N ) ;
 
-    int i = N;
+    int i = N ;
     do {
-        int prime = 1;   
-        int n = 2;
+        int prime = 1 ;   
+        int n = 2 ;
         do {
-            if (i % n == 0 && n != i) {  
-                prime = 0;  
-                break;      
+            if ( i % n == 0 && n != i ) {  
+                prime = 0 ;  
+                break ;      
             }
-            n++;
-        } while (n <= i / 2);
-        if (prime && i >= 2) {
-            printf("%d ", i);
+            n++ ;
+        } while ( n <= i / 2 ) ;
+        if ( prime && i >= 2 ) {
+            printf( "%d ", i ) ;
         }
-        i--;  /
-    } while (i >= 2);  // end do/while
-    return 0;
+        i-- ;  
+    } while ( i >= 2 ) ;  // end do/while
+    return 0 ;
 } // end main function
