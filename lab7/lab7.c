@@ -29,7 +29,7 @@ int main() {
         }
 
         printf("Do you want to play game (1=play,-1=exit)\n") ;
-        scanf("%d",&Play);
+        scanf(" %d",&Play);
     
     } while(Play == 1 );
     printf("see you again .");
