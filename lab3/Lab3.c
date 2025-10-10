@@ -4,9 +4,9 @@ int main() {
     float Area;
     printf("Enter Height : \n");
     scanf("%d",&Height);
-    printf("Enter Width: \n");
+    printf("Enter Width : \n");
     scanf("%d",&Width);
     Area = (Height*Width) / 2 ;
-    printf("Area is %d",Area);
+    printf("Area is %.2f",Area);
     return 0 ;
 }
